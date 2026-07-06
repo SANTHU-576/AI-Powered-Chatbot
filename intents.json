@@ -1,0 +1,189 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good Morning",
+        "Good Evening",
+        "What's up",
+        "Howdy"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi! Welcome to the AI Chatbot.",
+        "Hey! Nice to meet you."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Catch you later",
+        "See you"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you soon!",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "Appreciate it",
+        "Thank you so much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "My pleasure!"
+      ]
+    },
+    {
+      "tag": "about_bot",
+      "patterns": [
+        "Who are you",
+        "Tell me about yourself",
+        "What are you",
+        "What is your name",
+        "Introduce yourself"
+      ],
+      "responses": [
+        "I'm an AI-powered chatbot developed using Python, Flask, NLTK, SQLite, and Machine Learning."
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "Who created you",
+        "Who made you",
+        "Who developed you",
+        "Who is your creator"
+      ],
+      "responses": [
+        "I was developed by Santhoshi using Python, Flask, NLTK, and SQLite."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help",
+        "Can you help me",
+        "I need assistance",
+        "Can you assist me"
+      ],
+      "responses": [
+        "Sure! Tell me your question and I'll do my best to help."
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": [
+        "What is Python",
+        "Tell me about Python",
+        "Python language"
+      ],
+      "responses": [
+        "Python is a popular programming language used for AI, Machine Learning, Web Development, Automation, and Data Science."
+      ]
+    },
+    {
+      "tag": "flask",
+      "patterns": [
+        "What is Flask",
+        "Explain Flask",
+        "Flask framework"
+      ],
+      "responses": [
+        "Flask is a lightweight Python web framework used for building web applications and REST APIs."
+      ]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "What is Machine Learning",
+        "Explain Machine Learning",
+        "ML"
+      ],
+      "responses": [
+        "Machine Learning enables computers to learn from data and make predictions without being explicitly programmed."
+      ]
+    },
+    {
+      "tag": "database",
+      "patterns": [
+        "What database are you using",
+        "Database",
+        "SQLite"
+      ],
+      "responses": [
+        "This chatbot stores conversations in an SQLite database."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "time",
+        "current time",
+        "what time is it",
+        "tell me the time",
+        "show time"
+      ],
+      "responses": [
+        "Fetching current time..."
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "date",
+        "today's date",
+        "current date",
+        "what is today's date",
+        "show date"
+      ],
+      "responses": [
+        "Fetching today's date..."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "Weather",
+        "Today's weather",
+        "Weather forecast"
+      ],
+      "responses": [
+        "Currently I don't have live weather access, but it can be integrated using a Weather API."
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Funny joke"
+      ],
+      "responses": [
+        "Why do programmers prefer dark mode? Because light attracts bugs!"
+      ]
+    },
+    {
+      "tag": "default",
+      "patterns": [
+        "Random question"
+      ],
+      "responses": [
+        "Sorry, I couldn't understand that. Could you rephrase your question?"
+      ]
+    }
+ ]
+}
